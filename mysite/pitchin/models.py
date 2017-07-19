@@ -9,6 +9,8 @@ class Facility(models.Model):
 
     name = models.CharField(max_length=100)
 
+    class Meta:
+        verbose_name_plural = 'facilities'
 
 # class User(models.Model):
 
